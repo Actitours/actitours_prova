@@ -11,6 +11,7 @@ const APP_SHELL = [
     // '/',
     'index.html',
     'css/style.css',
+    'css/interficie.css',
     'img/favicon.ico',
     'img/avatars/hulk.jpg',
     'img/avatars/ironman.jpg',

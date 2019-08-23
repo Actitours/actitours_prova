@@ -3,7 +3,6 @@
 // Guardar  en el cache dinamico
 function actualizaCacheDinamico( dynamicCache, req, res ) {
 
-
     if ( res.ok ) {
 
         return caches.open( dynamicCache ).then( cache => {
@@ -17,8 +16,6 @@ function actualizaCacheDinamico( dynamicCache, req, res ) {
     } else {
         return res;
     }
-
-
 
 }
 
