@@ -1,0 +1,181 @@
+body{ 
+    margin: 0px 0px;
+    /* background-image: url("../imatges/fons_kayak.jpg"); */
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+}
+#contenidor{
+    height: 100%;
+    width: 100%;
+    margin: 0px 0px;
+}
+.producte_destacat{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 100%;
+    height: 220px;
+}
+.img_p_producte_pd{
+    position: absolute;
+    overflow: hidden;
+    z-index: 0;
+}
+.desc_producte_pd{
+    display: flex;
+    align-self: flex-end;
+    position: absolute;
+    font-size: .8rem;
+    color: #FFFFFF;
+    padding: .5rem .5rem .5rem .5rem;
+    background-color:rgb(0,0,0,0.5);
+    /* bottom: 0; */
+    z-index: 10;
+}
+.desc_producte{
+    position: absolute;
+    font-size: .8rem;
+    color: #FFFFFF;
+    padding: 1rem 9rem 1rem 1rem;
+}
+.producte{
+    width: auto;
+    height: 120px;
+}
+.img_p_producte{
+    /* background-image: url(../imatges/prod-horses.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;  */
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+.menu{
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-end;
+    height: 50px;
+    background-color:rgb(255,255,255,0.5) ;
+    width: 100%;
+    padding: 0rem 1rem 0rem 1rem ;
+    
+}
+.iconmenu{
+    display: flex;
+    align-self: center;
+    /* height: 40px;
+    width: 40px;
+    padding: 0rem 1.5rem 0rem 1.5rem ; */
+}
+.producte_fitxa_foto_principal{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 100%;
+    height: 390px;
+    z-index: 0;
+}
+.producte_fitxa_descripcio{
+    /* display: flex;
+    flex-direction: column;
+    align-items: flex-end; */
+    position: relative;
+    float: left;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 100%;
+    background-color: #b9e1f4;
+    margin-top: -20px;
+    min-height: 400px;
+    z-index: 10;
+    padding: 20px 20px 20px 20px;
+    line-height: 1.2rem;
+
+}
+.producte_fitxa_valoracio{
+
+}
+.producte_fitxa_ico{
+
+}
+/**_bts==butons**/
+.producte_fitxa_bts{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    float: left;
+    width: 100%;
+    background-color: #b9e1f4;
+}
+.producte_fitxa_link_preu{
+    position: relative;
+    float: left;
+    width: 100%;
+    background-color: #b9e1f4;
+}
+.producte_fitxa_bt_compra{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center ;
+    height: 45px;
+    width: 150px;
+    /* padding: 5px 0px 5px 0px; */
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: #eaea3b;
+
+    -moz-box-shadow: 1px 2px 4px rgba(0, 0, 0,0.5);
+    -webkit-box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+    
+}
+.producte_fitxa_bt_faqs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center ;
+    height: 20px;
+    width: 40px;
+    /* padding: 5px 0px 5px 0px; */
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: #eaea3b;
+    -moz-box-shadow: 1px 2px 4px rgba(0, 0, 0,0.5);
+    -webkit-box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+}
+.producte_fitxa_bt_share{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center ;
+    height: 20px;
+    width: 40px;
+    /* padding: 5px 0px 5px 0px; */
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: #eaea3b;
+    -moz-box-shadow: 1px 2px 4px rgba(0, 0, 0,0.5);
+    -webkit-box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+}
+.distanciador_menu{
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 60px;
+}
+/** a partir d'ara .producte_fitxa == .pr_fi_**/
+.pr_fi_text_destacat{
+    font-size: 1rem;
+    font-weight: bold;
+}
+.pr_fi_text_descripcio{
+    font-size: .7rem;
+}
